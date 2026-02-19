@@ -56,7 +56,7 @@ export default function Experiances() {
             {/* Tool 1 - Burp Suite (with image) */}
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
                <img 
-                src="public/images/sianovatech.jpg" 
+                src="/images/sianovatech.jpg" 
                 alt="sianovatech"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -71,7 +71,7 @@ export default function Experiances() {
             {/* Tool 2 - Python Security Tools (with image) */}
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
                <img 
-                src="public/images/originx.png" 
+                src="/images/originx.png" 
                 alt="OriginX"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -86,7 +86,7 @@ export default function Experiances() {
             {/* Tool 3 - Linux Shell Tools (no image - gradient placeholder) */}
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
               <img 
-                src="public/images/python.jpg" 
+                src="/images/python.jpg" 
                 alt="Portfolio"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />

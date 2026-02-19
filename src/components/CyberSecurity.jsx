@@ -101,7 +101,7 @@ export default function CyberSecurity() {
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
               <a href="https://www.linkedin.com/posts/kian-darafshdar_bugbounty-bughunter-wideabrrecon-ugcPost-7362497634491604992-MF3P" target="_blank">
               <img 
-                src="public/images/night_stalker.jpg" 
+                src="/images/night_stalker.jpg" 
                 alt="Night Stalker"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -120,7 +120,7 @@ export default function CyberSecurity() {
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
               <a href="https://www.linkedin.com/posts/kian-darafshdar_paramizer-my-new-tool-that-gather-specific-ugcPost-7397573748133933056-Dcr5" target="_blank">
               <img 
-                src="public/images/paramizer.png"
+                src="/images/paramizer.png"
                 alt="Paramizer"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -138,7 +138,7 @@ export default function CyberSecurity() {
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
               <a href="https://www.linkedin.com/posts/kian-darafshdar_bugbounty-ugcPost-7359528983673114626-NWa-" target="_blank">
               <img 
-                src="public/images/Desolator.jpg" 
+                src="/images/Desolator.jpg" 
                 alt="Desolator"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />

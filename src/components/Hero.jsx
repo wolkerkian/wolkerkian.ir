@@ -5,7 +5,7 @@ export default function Hero() {
         {/* Left - Image */}
         <div className="relative aspect-square md:aspect-[4/5] md:h-full md:ml-[15vh] rounded-2xl overflow-hidden shadow-2xl shadow-black/20 dark:shadow-black/40">
           <img
-            src="public/images/avatar.jpg"
+            src="/images/avatar.jpg"
             alt="my portrait"
             className="absolute inset-0 w-full h-full object-cover object-top"
           />
