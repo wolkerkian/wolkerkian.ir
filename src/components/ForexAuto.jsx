@@ -55,7 +55,7 @@ export default function ForexAuto() {
             {/* Tool 1 - Burp Suite (with image) */}
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
               <img 
-                src="src/assets/images/Tradingview.png" 
+                src="public/images/Tradingview.png" 
                 alt="R & S Indicator"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -70,7 +70,7 @@ export default function ForexAuto() {
             {/* Tool 2 - Python Security Tools (with image) */}
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
               <img 
-                src="src/assets/images/MQL4.png"
+                src="public/images/MQL4.png"
                 alt="Market Structure"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />

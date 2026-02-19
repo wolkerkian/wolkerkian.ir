@@ -73,7 +73,7 @@ export default function WebDev() {
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
               <a href="https://drhamedipharma.com" target="_blank">
                 <video
-                src="src/assets/videos/drhamedipharma.mp4"
+                src="public/videos/drhamedipharma.mp4"
                 autoPlay
                 loop
                 muted
@@ -92,7 +92,7 @@ export default function WebDev() {
 
             <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
                 <video
-                src="src/assets/videos/arman_collection.mp4"
+                src="public/videos/arman_collection.mp4"
                 autoPlay
                 loop
                 muted
@@ -112,7 +112,7 @@ export default function WebDev() {
               <div className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl group">
               <a href="https://wolkerkian.ir" target="_blank">
               <img 
-                src="src/assets/images/portfolio.jpg" 
+                src="public/images/portfolio.jpg" 
                 alt="Portfolio"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
               />
