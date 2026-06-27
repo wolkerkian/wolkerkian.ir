@@ -11,10 +11,10 @@ const englishContent = {
 };
 
 export default function ThreeVulnerabilitiesInUniversity() {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('fa');
 
-  const isRtl = language === 'en';
-  const content = language === 'en' ? persianContent : englishContent;
+  const isRtl = language === 'fa';
+  const content = language === 'fa' ? persianContent : englishContent;
 
   return (
     <div 

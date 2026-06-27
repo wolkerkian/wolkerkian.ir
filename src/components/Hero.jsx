@@ -23,7 +23,7 @@ export default function Hero() {
       <a href="/cyber-security">• Cyber Security</a><br className="mb-2 block" />
       <a href="/web-development">• Web Development</a><br className="mb-2 block" />
       <a href="/forex-automation">• Forex Automation</a><br className="mb-2 block" />
-      <a href="/forex-automation" className="text-red-600 dark:text-red-300">• My WriteUps</a>
+      <a href="/write-up" className="text-red-600 dark:text-red-300">• My WriteUps</a>
     </p>
     
   </div>
