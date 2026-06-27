@@ -10,7 +10,8 @@ import CyberSecurity from './components/CyberSecurity'   // ← new component
 import WebDev from './components/WebDev'
 import ForexAuto from './components/ForexAuto'
 import Experiances from './components/Experiances'
-
+import WriteUp from './components/WriteUp'
+import ThreeVulnerabilitiesInUniversity from './components/writeups/ThreeVulnerabilitiesInUniversity'
 export default function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
@@ -25,7 +26,8 @@ export default function App() {
         <Route path="/web-development" element={<WebDev />} />
         <Route path="/forex-automation" element={<ForexAuto />} />
         <Route path="/experiences" element={<Experiances />} />
-
+        <Route path="/write-up" element={<WriteUp />} />
+        <Route path="/3-Vulnerabilities-In-University" element={<ThreeVulnerabilitiesInUniversity />} />
       </Routes>
       
     </div>

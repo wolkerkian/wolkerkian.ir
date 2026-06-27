@@ -14,7 +14,7 @@ export default function Hero() {
         </div>
 
         {/* Right - Info Card */}
-<div className="relative md:h-[40vh] bg-white/90 md:t-0 dark:bg-gray-900/90 backdrop-blur-sm p-8 md:py-9 md:p-12 rounded-2xl shadow-xl border border-gray-200/50 dark:border-gray-800/50 flex flex-col justify-between">
+<div className="relative md:h-[48vh] bg-white/90 md:t-0 dark:bg-gray-900/90 backdrop-blur-sm p-8 md:py-9 md:p-12 rounded-2xl shadow-xl border border-gray-200/50 dark:border-gray-800/50 flex flex-col justify-between">
   <div>
     <h2 className="text-3xl md:text-4xl font-bold leading-tight text-gray-900 dark:text-white mb-3">
       Kian Darafshdar
@@ -22,7 +22,8 @@ export default function Hero() {
     <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-medium mb-6 md:mb-8 leading-relaxed">
       <a href="/cyber-security">• Cyber Security</a><br className="mb-2 block" />
       <a href="/web-development">• Web Development</a><br className="mb-2 block" />
-      <a href="/forex-automation">• Forex Automation</a>
+      <a href="/forex-automation">• Forex Automation</a><br className="mb-2 block" />
+      <a href="/forex-automation" className="text-red-600 dark:text-red-300">• My WriteUps</a>
     </p>
     
   </div>

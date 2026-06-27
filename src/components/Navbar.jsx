@@ -1,8 +1,8 @@
 export default function Navbar() {
   const links = [
-    { label: 'Cyber Security', href: '/cyber-security' },
-    { label: 'Web Development', href: '/web-development' },
-    { label: 'Forex Automation', href: '/forex-automation' },
+    { label: 'Cyber Sec', href: '/cyber-security' },
+    { label: 'Web Dev', href: '/web-development' },
+    { label: 'Forex Bots', href: '/forex-automation' },
     { label: 'Experiences', href: '/experiences' },
   ];
 
@@ -30,6 +30,17 @@ export default function Navbar() {
           {link.label}
         </a>
       ))}
+              <a
+                key={'/write-up'}
+                href={'/write-up'}
+                className="
+                  relative text-red-700 dark:text-red-300 whitespace-nowrap
+                  hover:text-red-600 dark:hover:text-red-400 transition-colors
+                  after:content-[''] after:absolute after:bottom-[-5px] after:left-0
+                  after:h-[2px] after:w-0 after:bg-red-500 after:transition-all
+                  hover:after:w-full
+                "
+              >My WriteUps🔥</a>
     </div>
   </nav>
   );
