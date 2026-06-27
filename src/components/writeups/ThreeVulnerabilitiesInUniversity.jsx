@@ -49,11 +49,7 @@ export default function ThreeVulnerabilitiesInUniversity() {
       <main className="max-w-4xl mx-auto px-6 py-12">
 
 
-        <img
-          src="/images/writeups/university-cover.png"
-          alt=""
-          className="w-full rounded-3xl shadow-lg border border-gray-200 dark:border-gray-800 mb-12"
-        />
+
 
         <article className="prose prose-lg dark:prose-invert max-w-none">
           {/* شروع ماجرا / How It Started */}
@@ -71,7 +67,7 @@ export default function ThreeVulnerabilitiesInUniversity() {
             }
           </p>
 
-          <img src="/src/images/writeups/query1.png" alt="" className="rounded-sm my-8" />
+          <img src="/images/writeups/query1.png" alt="" className="rounded-sm my-8" />
 
           {/* اولین نشانه / First Sign */}
           <h2><b>{isRtl ? "اولین نشانه" : "First Sign"}</b></h2>
@@ -110,7 +106,7 @@ export default function ThreeVulnerabilitiesInUniversity() {
             }
           </p>
 
-          <img src="/src/images/writeups/query2.png" alt="" className="rounded-sm my-8" />
+          <img src="/images/writeups/query2.png" alt="" className="rounded-sm my-8" />
 
           <p>
             {isRtl 
@@ -133,7 +129,7 @@ export default function ThreeVulnerabilitiesInUniversity() {
             }
           </p>
 
-          <img src="/src/images/writeups/transfer.gif" alt="" className="rounded-2xl my-8" />
+          <img src="/images/writeups/transfer.gif" alt="" className="rounded-2xl my-8" />
 
           <h2>{isRtl ? "گزارش اولیه" : "Initial Report"}</h2>
           <p>
@@ -178,7 +174,7 @@ export default function ThreeVulnerabilitiesInUniversity() {
           </p>
           <p>mass account takeover on all domains!!! Vital</p>
 
-          <img src="/src/images/writeups/images.jpg" alt="" className="rounded-sm my-8" />
+          <img src="/images/writeups/images.jpg" alt="" className="rounded-sm my-8" />
           <h2>{isRtl ? "برگشت آسیب‌پذیری اول!" : "Return of the First Vulnerability!"}</h2>
           <p>
             {isRtl 
