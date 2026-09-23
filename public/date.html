@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>A Small Plan</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- EmailJS -->
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+</head>
+
+<body>
+
+  <main class="experience">
+
+    <!-- =========================
+         INTRO
+    ========================== -->
+    <section class="scene active" data-scene="0">
+
+      <div class="scene-number">00</div>
+
+      <div class="content intro-content">
+        <span class="eyebrow">A SMALL PLAN</span>
+
+        <h1>
+          There are a few places
+          <br />
+          I'd like to take you.
+        </h1>
+
+        <p>
+          Nothing particularly complicated.
+          <br />
+          Just an evening worth remembering.
+        </p>
+
+        <button class="next-btn" data-next>
+          BEGIN
+        </button>
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         MINION
+    ========================== -->
+    <section class="scene" data-scene="1">
+
+      <div class="scene-number">01</div>
+
+      <div class="content">
+
+        <span class="eyebrow">FIRST STOP</span>
+
+        <h2>
+          MINION
+          <br />
+          <span>CONFECTIONERY</span>
+        </h2>
+
+        <div class="divider"></div>
+
+        <p>
+          First, coffee and something sweet
+          at Minion Confectionery —
+          one of Tehran's oldest pastry shops.
+        </p>
+
+        <p class="small-note">
+          A proper beginning requires something sweet.
+        </p>
+
+        <button class="next-btn" data-next>
+          NEXT PLACE →
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         HONARMANDAN
+    ========================== -->
+    <section class="scene" data-scene="2">
+
+      <div class="scene-number">02</div>
+
+      <div class="content">
+
+        <span class="eyebrow">SECOND STOP</span>
+
+        <h2>
+          HONARMANDAN
+          <br />
+          <span>PARK</span>
+        </h2>
+
+        <div class="divider"></div>
+
+        <p>
+          Then we'll walk through
+          Honarmandan Park,
+          continue toward Iranshahr,
+          and see where the evening takes us.
+        </p>
+
+        <p class="small-note">
+          No strict schedule.
+        </p>
+
+        <button class="next-btn" data-next>
+          KEEP GOING →
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         MYSTERY ROOM
+    ========================== -->
+    <section class="scene strange-scene" data-scene="3">
+
+      <div class="noise"></div>
+
+      <div class="scene-number">03</div>
+
+      <div class="content">
+
+        <span class="eyebrow">THE UNKNOWN Gallery</span>
+
+        <h2>
+          MYSTERY
+          <br />
+          <span>ROOM</span>
+        </h2>
+
+        <div class="divider"></div>
+
+        <p>
+          There is one part
+          of the plan
+          that I am not going to explain.
+        </p>
+
+        <p class="mystery-text">
+          You'll see.
+        </p>
+
+        <button class="next-btn" data-next>
+          I KNOW SOMETHING YOU DON'T →
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         QUESTION
+    ========================== -->
+    <section class="scene" data-scene="4">
+
+      <div class="scene-number">04</div>
+
+      <div class="content question-content">
+
+        <span class="eyebrow">THE QUESTION</span>
+
+        <h2 class="question-title">
+          SO.
+        </h2>
+
+        <p class="large-question">
+          This is the most suggested
+          <br />
+          and legendary plan.
+        </p>
+
+        <p>
+          But...
+          <br />
+          what's your idea?
+        </p>
+
+        <textarea
+          id="opinion"
+          placeholder="Your idea..."
+          maxlength="500"
+        ></textarea>
+
+        <div class="time-section">
+
+          <span class="eyebrow">
+            YOUR SUGGESTED TIME
+          </span>
+
+          <div class="time-options">
+
+            <button class="time-option" data-time="06:00">
+              06:00
+            </button>
+
+            <button class="time-option" data-time="07:00">
+              07:00
+            </button>
+
+            <button class="time-option" data-time="08:00">
+              08:00
+            </button>
+
+          </div>
+
+        </div>
+
+        <p id="time-error" class="error">
+          Choose a time first.
+        </p>
+
+        <button
+          class="next-btn final-btn"
+          id="submit-plan"
+        >
+          ARE YOU IN, DEAR STAR? →
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL
+    ========================== -->
+    <section class="scene" data-scene="5">
+
+      <div class="content final-content">
+
+        <span class="eyebrow">
+          PLAN RECEIVED
+        </span>
+
+        <h1 id="final-time">
+          07:00
+        </h1>
+
+        <div class="divider"></div>
+
+        <p>
+          I'll take it from here.
+        </p>
+
+        <p class="final-small">
+          See you, Star.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Prism transition layer -->
+  <div class="prism" id="prism">
+    <div class="prism-face"></div>
+    <div class="prism-face"></div>
+    <div class="prism-face"></div>
+    <div class="prism-face"></div>
+    <div class="prism-face"></div>
+    <div class="prism-face"></div>
+    <div class="prism-face"></div>
+  </div>
+
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
